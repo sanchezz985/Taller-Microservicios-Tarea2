@@ -29,7 +29,7 @@ Los pasos para instalar NodeJS son los siguientes:
 
 - Puedes ingresar a la siguiente URL: https://nodejs.org/es/download/ en la cual encontraras el instalador para las plataformas Linux, Windows y Mac.
 
-[Insertar imagen de la pagina de node]
+![alt text](http://emmanuel.pagelab.io/Selecci%c3%b3n_001.png)
 
 - Una vez descargado el instalador,debes ejecutarlo y seguir las instrucciones.
 
@@ -71,8 +71,11 @@ https://platzi.com/blog/como-instalar-mongodb-en-window-linux-y-mac/
 Este repositorio consta de 4 proyectos:
 
 - [HW2-Client-Microservice] - Proyecto con la lógica necesaria para el registro de clientes y dispara los eventos para el registro de productos, levanta por el puerto `8080` .
+
 - [HW2-Product-Microservice] - Proyecto con la lógica necesaria para el registro de productos y dispara los eventos para el envío de notificaciones, levanta por el puerto `8081`.
+
 - [HW2-Log-Microservice] - Proyecto con la lógica necesaria para el envío de notificaciones, por simplicidad este proyecto solamente muestra logs en la consola simulando el envìo de las notificaciones, levanta por el puerto `8082`.
+
 - [HW2-Dashboard] - Proyecto que contiene las vistas usadas para visualizar la información, levanta por el puerto `4200`.
 
 El primer paso es asegurarte de que base de datos Mongo este funcionando, puedes verificar que puedas entrar a la consola de mongo con el siguiente comando:
@@ -96,6 +99,9 @@ Si todo sale bien el proyecto compilará y generará un Jar en la carpeta target
 ```sh
 $ java -jar target/{nombre-del-jar}.jar
 ```
+
+[Insertar proyectos levantados]
+
 
 Una vez que los 3 proyectos han sido levantados debemos correr la aplicación hecha en Angular para poder manipular la información, esto lo hacemos de la siguiente forma:
 
