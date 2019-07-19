@@ -1,0 +1,33 @@
+<button mat-raised-button [routerLink]="home">Regresar</button>
+<div class="register-container">
+
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+      <input matInput placeholder="Nombre" formControlName="name">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Correo" formControlName="email">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Edad" formControlName="age">
+    </mat-form-field>
+
+    <mat-checkbox (change)="onOpenProductChange()">Aperturar producto</mat-checkbox>
+
+    <mat-form-field>
+      <mat-select [disabled]="disabledOptions" placeholder="Producto" formControlName="product">
+        <mat-option value="1">Guardadito</mat-option>
+        <mat-option value="2">Inversion Azteca</mat-option>
+        <mat-option value="3">Inversion Plus</mat-option>
+        <mat-option value="4">Inversion Plazo</mat-option>
+        <mat-option value="5">Tarjeta Azteca</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <button mat-raised-button type="submit">Registrar</button>
+
+  </form>
+
+</div>

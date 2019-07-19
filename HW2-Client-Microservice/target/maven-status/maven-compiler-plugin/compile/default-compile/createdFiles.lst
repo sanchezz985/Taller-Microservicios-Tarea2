@@ -1,11 +1,11 @@
+com/consulting/mgt/springboot/hw2/client/events/ClientCreatedEvent$ClientCreatedEventBuilder.class
 com/consulting/mgt/springboot/hw2/client/events/ClientCreatedEvent.class
+com/consulting/mgt/springboot/hw2/client/model/Client.class
 com/consulting/mgt/springboot/hw2/client/_config/RabbitMQConfig.class
 com/consulting/mgt/springboot/hw2/client/restcontroller/ClientController.class
-com/consulting/mgt/springboot/hw2/client/service/ClientService.class
-com/consulting/mgt/springboot/hw2/client/_config/AsynchronousConfig.class
-com/consulting/mgt/springboot/hw2/client/events/ClientCreatedEvent$ClientCreatedEventBuilder.class
-com/consulting/mgt/springboot/hw2/client/model/Client.class
 com/consulting/mgt/springboot/hw2/client/ClientMicroserviceApplication.class
 com/consulting/mgt/springboot/hw2/client/repository/ClientRepository.class
+com/consulting/mgt/springboot/hw2/client/service/ClientService.class
+com/consulting/mgt/springboot/hw2/client/_config/AsynchronousConfig.class
 com/consulting/mgt/springboot/hw2/client/events/ClientCreatedEventBuilder.class
 com/consulting/mgt/springboot/hw2/client/observer/ClientCreatedListener.class
