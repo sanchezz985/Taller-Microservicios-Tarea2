@@ -1,0 +1,11 @@
+com/consulting/mgt/springboot/hw2/log/rabbitListener/ProductCreatedRabbitListener.class
+com/consulting/mgt/springboot/hw2/log/_config/AsynchronousConfig.class
+com/consulting/mgt/springboot/hw2/log/events/ProductCreatedEvent.class
+com/consulting/mgt/springboot/hw2/log/events/ProductCreatedEventBuilder.class
+com/consulting/mgt/springboot/hw2/log/model/Product.class
+com/consulting/mgt/springboot/hw2/log/events/ProductCreatedEvent$ProductCreatedEventBuilder.class
+com/consulting/mgt/springboot/hw2/log/_config/ApplicationConfig.class
+com/consulting/mgt/springboot/hw2/log/_config/RabbitMQConfig.class
+com/consulting/mgt/springboot/hw2/log/service/LogService.class
+com/consulting/mgt/springboot/hw2/log/LogMicroserviceApplication.class
+com/consulting/mgt/springboot/hw2/log/observer/ProductCreatedListener.class
