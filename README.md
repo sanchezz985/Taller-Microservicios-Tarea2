@@ -70,10 +70,10 @@ https://platzi.com/blog/como-instalar-mongodb-en-window-linux-y-mac/
 # Levantando la aplicación
 Este repositorio consta de 4 proyectos:
 
-- [HW2-Client-Microservice] - Proyecto con la lógica necesaria para el registro de clientes y dispara los eventos para el registro de productos.
-- [HW2-Product-Microservice] - Proyecto con la lógica necesaria para el registro de productos y dispara los eventos para el envío de notificaciones.
-- [HW2-Log-Microservice] - Proyecto con la lógica necesaria para el envío de notificaciones, por simplicidad este proyecto solamente muestra logs en la consola simulando el envìo de las notificaciones.
-- [HW2-Dashboard] - Proyecto que contiene las vistas usadas para visualizar la información.
+- [HW2-Client-Microservice] - Proyecto con la lógica necesaria para el registro de clientes y dispara los eventos para el registro de productos, levanta por el puerto `8080` .
+- [HW2-Product-Microservice] - Proyecto con la lógica necesaria para el registro de productos y dispara los eventos para el envío de notificaciones, levanta por el puerto `8081`.
+- [HW2-Log-Microservice] - Proyecto con la lógica necesaria para el envío de notificaciones, por simplicidad este proyecto solamente muestra logs en la consola simulando el envìo de las notificaciones, levanta por el puerto `8082`.
+- [HW2-Dashboard] - Proyecto que contiene las vistas usadas para visualizar la información, levanta por el puerto `4200`.
 
 El primer paso es asegurarte de que base de datos Mongo este funcionando, puedes verificar que puedas entrar a la consola de mongo con el siguiente comando:
 
