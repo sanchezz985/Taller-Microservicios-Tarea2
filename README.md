@@ -33,7 +33,7 @@ Los pasos para instalar NodeJS son los siguientes:
 
 - Una vez descargado el instalador,debes ejecutarlo y seguir las instrucciones.
 
-[Insertar imagen de instalador]
+![alt text](http://emmanuel.pagelab.io/Selecci%c3%b3n_002.png)
 
 - Si lo prefieres y usas alguna plataforma como Linux o Mac puedes usar algun gestor de paquetes para hacer la instalación.
 
@@ -59,7 +59,7 @@ $ npm -v
 
 Lo cual nos dará como resultado lo siguiente
 
-[Insertar imagen de los comandos de versiones]
+![alt text](http://emmanuel.pagelab.io/Selecci%c3%b3n_003.png)
 
 # Instalación de Mongo DB
 
@@ -86,7 +86,7 @@ $ mongo
 
 Una vez que hayas clonado el repositorio puedes dirigirte a la ruta de los primeros tres proyectos para compilarlos.
 
-[Insertar imagen de los 3 proyectos]
+![alt text](http://emmanuel.pagelab.io/Selecci%c3%b3n_004.png)
 
 Para hacer la compilación de los proyectos puedes ejecutar la siguiente linea:
 
@@ -100,14 +100,14 @@ Si todo sale bien el proyecto compilará y generará un Jar en la carpeta target
 $ java -jar target/{nombre-del-jar}.jar
 ```
 
-[Insertar proyectos levantados]
+![alt text](http://emmanuel.pagelab.io/Selecci%c3%b3n_005.png)
 
 
 Una vez que los 3 proyectos han sido levantados debemos correr la aplicación hecha en Angular para poder manipular la información, esto lo hacemos de la siguiente forma:
 
 - Dirigete a la ruta del repositorio donde este la carpeta [HW2-Dashboard]
 
-[Insertar imagen de la ruta del Dashboard]
+![alt text](http://emmanuel.pagelab.io/Selecci%c3%b3n_006.png)
 
 - ejecuta el siguiente comando
 
@@ -123,11 +123,11 @@ http://localhost:4200
 
 Una vez en el navegador, veras una tabla vacía, esto es porque no hay usuarios registrados, para hacerlo oprime el botón Registrar.
 
-[Insertar imagen del home]
+![alt text](http://emmanuel.pagelab.io/Selecci%c3%b3n_007.png)
 
 Llena el registro con los datos indicados y al hacerlo serás redirigido a la pagina principal, si todo fue correcto deberias ver tu registro nuevo en la tabla.
 
-[Insertar imagen del registro]
+![alt text](http://emmanuel.pagelab.io/Selecci%c3%b3n_008.png)
 
 Una vez que hayas realizado estos pasos puedes regresar a la consola donde se estaban corriendo los jar para verificar los logs y ver que todo haya funcionado correctamente.
 
@@ -137,4 +137,4 @@ Cuando se registra un producto tambíen se detona una notificación en el ultimo
 
 A continuación vemos un ejemplo de un flujo completo realizado de manera exitosa.
 
-[Insertar imagen de caso exitoso]
+![alt text](http://emmanuel.pagelab.io/Selecci%c3%b3n_009.png)
